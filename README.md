@@ -17,15 +17,19 @@
 ### 环境要求
 
 - Unity `2022.3.21f1`
-- Git LFS
 
 ### 安装
 
 ```bash
 git clone https://github.com/sora-yyds/FlightSimulation.git
 cd FlightSimulation
-git lfs pull
 ```
+
+仓库不包含 SU-27 模型及其纹理。运行前请将对应资源放入以下路径，并保留仓库中的 `.meta` 文件：
+
+- `Assets/Planes/Meshes/su-27pu_ussr.fbx`
+- `Assets/Planes/Textures/su27pu-hull.png`
+- `Assets/Planes/Textures/su27pu-window.png`
 
 使用 Unity Hub 打开项目，载入 `Assets/Scenes/SampleScene.unity`，然后进入 Play Mode。
 

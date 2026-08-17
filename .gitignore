@@ -105,3 +105,9 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# Large local assets excluded because the remote repository has Git LFS disabled
+/Assets/Planes/Meshes/su-27pu_ussr.fbx
+/Assets/Planes/Textures/su27pu-hull.png
+/Assets/Planes/Textures/su27pu-window.png
+/Assets/TutorialInfo/Icons/URP.png
